@@ -1,0 +1,51 @@
+{
+  "overall": {
+    "event_count": 100095231,
+    "active_users": 987991,
+    "buyer_users": 672404,
+    "pv_events": 89660688,
+    "cart_events": 5530446,
+    "fav_events": 2888258,
+    "buy_events": 2015839,
+    "observation_start": "2017-11-25",
+    "observation_end": "2017-12-03",
+    "buy_to_pv_event_ratio": 0.022482974924305732,
+    "buyer_user_share": 0.6805770497909394
+  },
+  "strict_funnel": {
+    "intent_pairs": 70785,
+    "intent_purchase_pairs": 4990,
+    "any_purchase_pairs": 73129,
+    "no_confirmed_intent_purchase_pairs": 68139,
+    "cart_pairs": 50383,
+    "fav_pairs": 21223,
+    "cart_purchase_pairs": 3413,
+    "fav_purchase_pairs": 1675,
+    "sample_rule": "user_id % 10 = 0",
+    "sample_events": 9980307,
+    "sample_users": 98767,
+    "all_observed_pv_pairs": 7079367,
+    "eligible_pv_pairs": 6145392,
+    "excluded_incomplete_followup_pairs": 933975,
+    "first_pv_cutoff_exclusive": "2017-12-03",
+    "window_hours": 24,
+    "intent_pct": 1.151838645931781,
+    "intent_purchase_pct": 0.08119905125661633,
+    "any_purchase_pct": 1.1899810459609412,
+    "no_confirmed_intent_purchase_pct": 1.1087819947043247,
+    "cart_pct": 0.8198500600124451,
+    "fav_pct": 0.34534818934251876,
+    "cart_purchase_pct": 0.05553754748273178,
+    "fav_purchase_pct": 0.027256194560086648,
+    "intent_to_purchase_pct": 7.049516140425231,
+    "no_confirmed_intent_share_of_purchases_pct": 93.17644163054328,
+    "limitations": "First observed PV, not first lifetime PV. Systematic user sample, not a randomized experiment. First PVs on the final observed date are excluded; assume all earlier dates are fully covered. Each subsequent stage must be strictly later and within 24 hours of first PV; same-second events do not establish order. Absence of confirmed intent is not proof of a direct path."
+  },
+  "files": [
+    "daily_activity.csv",
+    "hourly_activity.csv",
+    "activity_profile.png",
+    "strict_funnel.csv",
+    "strict_funnel.png"
+  ]
+}

@@ -3,3 +3,8 @@ UserBehavior.csv
 taobao_project.db
 .DS_Store
 .ipynb_checkpoints/
+__pycache__/
+outputs/cache/
+
+# Local historical user-level export
+/legacy/3_rfe_users.csv

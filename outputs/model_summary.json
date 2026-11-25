@@ -1,0 +1,301 @@
+{
+  "selected_model": "Histogram gradient boosting",
+  "metrics": [
+    {
+      "model": "Logistic regression",
+      "fold": "validation",
+      "ap": 0.2366151062174574,
+      "roc_auc": 0.5846192751918167,
+      "brier": 0.1437201734687237,
+      "base_rate": 0.17600215255175697,
+      "n": 193259,
+      "selected_model": false
+    },
+    {
+      "model": "Histogram gradient boosting",
+      "fold": "validation",
+      "ap": 0.24151548699232522,
+      "roc_auc": 0.5859991444790629,
+      "brier": 0.1434785713803728,
+      "base_rate": 0.17600215255175697,
+      "n": 193259,
+      "selected_model": true
+    },
+    {
+      "model": "Logistic regression",
+      "fold": "test",
+      "ap": 0.24294668626715102,
+      "roc_auc": 0.5993902005669818,
+      "brier": 0.14194206605110557,
+      "base_rate": 0.17517996727407203,
+      "n": 197397,
+      "selected_model": false
+    },
+    {
+      "model": "Histogram gradient boosting",
+      "fold": "test",
+      "ap": 0.24767250524729648,
+      "roc_auc": 0.5993977334984335,
+      "brier": 0.14174261882800923,
+      "base_rate": 0.17517996727407203,
+      "n": 197397,
+      "selected_model": true
+    }
+  ],
+  "targeting": [
+    {
+      "policy": "Random (expected)",
+      "selected_model": false,
+      "budget_fraction": 0.01,
+      "n_selected": 1974,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 345.8052553990182,
+      "precision": 0.17517996727407203,
+      "recall": 0.010000151977993586,
+      "lift": 1.0
+    },
+    {
+      "policy": "Random (expected)",
+      "selected_model": false,
+      "budget_fraction": 0.05,
+      "n_selected": 9870,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 1729.0262769950912,
+      "precision": 0.17517996727407206,
+      "recall": 0.05000075988996793,
+      "lift": 1.0000000000000002
+    },
+    {
+      "policy": "Random (expected)",
+      "selected_model": false,
+      "budget_fraction": 0.1,
+      "n_selected": 19740,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 3458.0525539901823,
+      "precision": 0.17517996727407206,
+      "recall": 0.10000151977993586,
+      "lift": 1.0000000000000002
+    },
+    {
+      "policy": "Random (expected)",
+      "selected_model": false,
+      "budget_fraction": 0.2,
+      "n_selected": 39480,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 6916.105107980365,
+      "precision": 0.17517996727407206,
+      "recall": 0.20000303955987173,
+      "lift": 1.0000000000000002
+    },
+    {
+      "policy": "Recent cart rule",
+      "selected_model": false,
+      "budget_fraction": 0.01,
+      "n_selected": 1974,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 520.0,
+      "precision": 0.2634245187436677,
+      "recall": 0.015037593984962405,
+      "lift": 1.5037365450099414
+    },
+    {
+      "policy": "Recent cart rule",
+      "selected_model": false,
+      "budget_fraction": 0.05,
+      "n_selected": 9870,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 2454.0,
+      "precision": 0.2486322188449848,
+      "recall": 0.07096587622903412,
+      "lift": 1.419295954405537
+    },
+    {
+      "policy": "Recent cart rule",
+      "selected_model": false,
+      "budget_fraction": 0.1,
+      "n_selected": 19740,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 4681.0,
+      "precision": 0.23713272543059777,
+      "recall": 0.13536726431463272,
+      "lift": 1.353652070613757
+    },
+    {
+      "policy": "Recent cart rule",
+      "selected_model": false,
+      "budget_fraction": 0.2,
+      "n_selected": 39480,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 8861.0,
+      "precision": 0.22444275582573456,
+      "recall": 0.2562463851937536,
+      "lift": 1.2812124543589511
+    },
+    {
+      "policy": "Logistic regression",
+      "selected_model": false,
+      "budget_fraction": 0.01,
+      "n_selected": 1974,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 752.0,
+      "precision": 0.38095238095238093,
+      "recall": 0.021746674378253325,
+      "lift": 2.1746343881682226
+    },
+    {
+      "policy": "Logistic regression",
+      "selected_model": false,
+      "budget_fraction": 0.05,
+      "n_selected": 9870,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 3158.0,
+      "precision": 0.3199594731509625,
+      "recall": 0.09132446500867554,
+      "lift": 1.8264615419774595
+    },
+    {
+      "policy": "Logistic regression",
+      "selected_model": false,
+      "budget_fraction": 0.1,
+      "n_selected": 19740,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 5752.0,
+      "precision": 0.29138804457953393,
+      "recall": 0.1663389242336611,
+      "lift": 1.663363962864843
+    },
+    {
+      "policy": "Logistic regression",
+      "selected_model": false,
+      "budget_fraction": 0.2,
+      "n_selected": 39480,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 10317.0,
+      "precision": 0.261322188449848,
+      "recall": 0.29835164835164835,
+      "lift": 1.4917355706603428
+    },
+    {
+      "policy": "Histogram gradient boosting",
+      "selected_model": true,
+      "budget_fraction": 0.01,
+      "n_selected": 1974,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 849.0,
+      "precision": 0.43009118541033436,
+      "recall": 0.024551764025448237,
+      "lift": 2.455139089833539
+    },
+    {
+      "policy": "Histogram gradient boosting",
+      "selected_model": true,
+      "budget_fraction": 0.05,
+      "n_selected": 9870,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 3250.0,
+      "precision": 0.3292806484295846,
+      "recall": 0.09398496240601503,
+      "lift": 1.8796706812624266
+    },
+    {
+      "policy": "Histogram gradient boosting",
+      "selected_model": true,
+      "budget_fraction": 0.1,
+      "n_selected": 19740,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 5857.0,
+      "precision": 0.2967071935157041,
+      "recall": 0.16937536148062463,
+      "lift": 1.6937278738698511
+    },
+    {
+      "policy": "Histogram gradient boosting",
+      "selected_model": true,
+      "budget_fraction": 0.2,
+      "n_selected": 39480,
+      "test_size": 197397,
+      "total_purchasers": 34580,
+      "hits": 10273.0,
+      "precision": 0.2602077001013171,
+      "recall": 0.2970792365529208,
+      "lift": 1.4853736083545315
+    }
+  ],
+  "importance": [
+    {
+      "feature": "buy_4d",
+      "mean_ap_decrease": 0.03915745168422803,
+      "std_ap_decrease": 0.0005395823937336813
+    },
+    {
+      "feature": "buy_1d",
+      "mean_ap_decrease": 0.010835425098878831,
+      "std_ap_decrease": 0.0003164283885132291
+    },
+    {
+      "feature": "pv_4d",
+      "mean_ap_decrease": 0.008590449478912965,
+      "std_ap_decrease": 0.00026763691030029513
+    },
+    {
+      "feature": "active_days_4d",
+      "mean_ap_decrease": 0.0032997029143884,
+      "std_ap_decrease": 9.345351186780537e-05
+    },
+    {
+      "feature": "cart_4d",
+      "mean_ap_decrease": 0.0017457803162343882,
+      "std_ap_decrease": 0.0003784165828836922
+    },
+    {
+      "feature": "activity_4d",
+      "mean_ap_decrease": 0.0013309950378426472,
+      "std_ap_decrease": 0.0005474692442785645
+    },
+    {
+      "feature": "cart_1d",
+      "mean_ap_decrease": 0.000513745199177143,
+      "std_ap_decrease": 0.002452297531770356
+    },
+    {
+      "feature": "fav_1d",
+      "mean_ap_decrease": 0.00023198455417874908,
+      "std_ap_decrease": 0.0006031563354957081
+    },
+    {
+      "feature": "recency_days",
+      "mean_ap_decrease": -0.000979445729039477,
+      "std_ap_decrease": 0.00029212479164146543
+    },
+    {
+      "feature": "fav_4d",
+      "mean_ap_decrease": -0.0010948069295267787,
+      "std_ap_decrease": 0.0006675932677605717
+    },
+    {
+      "feature": "pv_1d",
+      "mean_ap_decrease": -0.0031647158205008463,
+      "std_ap_decrease": 0.000945182822282481
+    }
+  ],
+  "fold_sizes": {
+    "train": 576768,
+    "validation": 193259,
+    "test": 197397
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "raw_events": 100150807,
+  "outside_window_events": 55576,
+  "invalid_events_inside_window": 0,
+  "clean_events": 100095231,
+  "clean_invalid_events": 0,
+  "mismatched_day_behavior_groups": 0,
+  "raw_bytes": 3672347465,
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "period": [
+    "2017-11-25",
+    "2017-12-03"
+  ]
+}

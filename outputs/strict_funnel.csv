@@ -1,0 +1,10 @@
+stage,user_item_pairs,eligible_pv_pairs,eligible_share_pct,definition
+eligible_first_pv,6145392,6145392,100.0,First observed PV with complete 24h follow-up
+pv_then_intent,70785,6145392,1.151838645931781,"Later cart or fav, irrespective of purchase"
+pv_then_intent_then_purchase,4990,6145392,0.08119905125661633,PV < cart/fav < buy
+pv_then_any_purchase,73129,6145392,1.1899810459609412,"Any later buy, irrespective of intent"
+pv_then_purchase_no_confirmed_intent,68139,6145392,1.1087819947043247,Later buy with no strictly earlier post-PV cart/fav observed
+pv_then_cart,50383,6145392,0.8198500600124451,Later cart; may overlap fav branch
+pv_then_fav,21223,6145392,0.34534818934251876,Later fav; may overlap cart branch
+pv_then_cart_then_purchase,3413,6145392,0.05553754748273178,PV < cart < buy; may overlap fav branch
+pv_then_fav_then_purchase,1675,6145392,0.027256194560086648,PV < fav < buy; may overlap cart branch
